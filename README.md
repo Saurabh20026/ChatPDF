@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+**ChatPDF**
 
-## Getting Started
+ChatPDF is an AI-powered SaaS application that allows users to upload, interact with, and extract insights from PDF documents through a chat-based interface. This project leverages OpenAI API, PineconeDB, and LangChain to provide contextually rich responses and streamline document analysis.
 
-First, run the development server:
+🚀 **Features**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+AI-Powered Q&A: Ask questions about your PDFs and get instant answers.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Context-Aware Responses: Uses OpenAI API and LangChain for intelligent responses.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Vector-Based Search: Utilizes PineconeDB for fast and efficient retrieval.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+User-Friendly Interface: Built with Next.js and Streamlit for seamless interaction.
 
-## Learn More
+Secure Storage: Ensures data privacy and security with AWS integration.
 
-To learn more about Next.js, take a look at the following resources:
+🛠️ **Tech Stack**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Frontend: Next.js, React
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Backend: Python, FastAPI
 
-## Deploy on Vercel
+Database: PineconeDB
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+AI/ML: OpenAI API, LangChain
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Deployment: AWS, Vercel
+
+
+
+🖥️ **Usage**
+
+Upload a PDF file.
+
+Ask questions about the document.
+
+Get instant, AI-generated responses based on document context.
